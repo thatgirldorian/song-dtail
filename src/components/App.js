@@ -1,5 +1,5 @@
 import React from 'react';
-import Redux from 'react-redux';
+import { selectSong } from '../actions'
 
 const App = () => {
 
