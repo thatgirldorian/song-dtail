@@ -1,10 +1,15 @@
 import React from 'react';
+import SongList from './SongList'
+import SongDetail from './SongDetail'
 import { selectSong } from '../actions'
 
 const App = () => {
 
   return (
-    <div>Here's the app</div>
+    <div>
+      <SongList />
+      <SongDetail />
+    </div>
   )
 }
 

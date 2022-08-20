@@ -1,5 +1,7 @@
-//write out both of the reducers we need 
+// combine the reducers
+import { combineReducers } from 'redux'
 
+//write out both of the reducers we need 
 const songsReducer = () => {
     return [
             {title: "Show Me Off", duration: "3:17", artist: "Asa", genre: "Afrobeats/Rnb"},
@@ -11,3 +13,16 @@ const songsReducer = () => {
             {title: "Peru", duration: "3:07", artist: "Fireboy DML", genre: "Afrobeats/RnB"}
     ]
 }
+
+const selectedSongReducer = (selectedSong = null, action) => {
+    if (action.type === 'SONG_SELECTED') {
+        return action.payload
+    }
+
+    return selectedSong
+}
+
+export default combineReducers({
+    songs: songsReducer,
+    selectedSong: selectedSongReducer
+})
