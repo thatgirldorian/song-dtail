@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div>
       <h3 className="title">songdtail.</h3>
+      <p className="heading">a couple of my current favorite songs.</p>
       <div className="ui container grid">
       <div className="ui row">
         <div className="column eight wide">

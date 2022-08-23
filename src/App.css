@@ -14,7 +14,7 @@
   background-color: #80558C;
 }
 
-.title {
+.title, .heading {
   text-align: center !important;
   color: #354259;
   padding-top: 20px;
