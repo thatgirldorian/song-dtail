@@ -1,15 +1,19 @@
 # song-dtail
 
+This is an application that will render some data pulled from the reducers and show some song facts. It's a small project I built with React and Redux to understand how they work together. Here I practiced creating some action conditions, sending them to the reducers and then, managing state in a neater way with Redux.
 
-
-<h3>Issues faced & resolution:</h3>
+I also added a catcher using conditional rendering in case a user loads the page up and a song has not yet been selected.
 
 
 <h3>Technology used:</h3>
 
+- React JS
+- Redux
+- Semantic UI
+- Vercel
 
 <h3>Link to site:</h3>
-
+https://song-dtail.vercel.app/
 
 <h3>Screenshare:</h3>
 
