@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
+import '../App.css'
+
 
 const SongDetail = ({ song }) => {
     //set some catcher/error handling for when there is no song selected on load
     if (!song) {
-        return <div>Select a song!</div>
+        return <div className="pointer-message">Select a song!</div>
     }
 
     return (
-        <div>
+        <div className="details">
             <h3>Song Facts</h3>
             <p>Title: {song.title}</p>
             <p>Duration: {song.duration}</p>

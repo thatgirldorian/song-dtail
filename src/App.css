@@ -20,3 +20,23 @@
   padding-top: 20px;
   text-decoration: underline !important;
 }
+
+div.column.eight.wide:first-child {
+  padding-left: 100px !important;
+}
+
+div.column.eight.wide:nth-child(2) {
+  padding-left: -150px !important;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.details {
+  text-align: center !important;
+}
+
+.pointer-message {
+  text-align: center !important;
+}
