@@ -10,6 +10,10 @@
   background-color: #80558C;
 }
 
+.ui.button.primary:focus {
+  background-color: #80558C;
+}
+
 .title {
   text-align: center !important;
   color: #354259;
