@@ -21,7 +21,6 @@ class SongList extends Component {
 
 
     render() {
-        console.log(this.props)
         return (
             <div className="ui divided list">{this.renderList()}</div>
         )
@@ -30,7 +29,6 @@ class SongList extends Component {
 
 //create an instance of the connect component and use state from the redux store
 const mapStateToProps = (state) => {
-    console.log(state)
     return {songs: state.songs}
 }
 
